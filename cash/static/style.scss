@@ -1,0 +1,97 @@
+body {
+    font-family: Dubai;
+    margin: 1.5em;
+    nav {
+        display: flex;
+        justify-content: space-between;
+        height: 80px;
+        width: 100%;
+        .logo {
+            font-size: 2rem;
+        }
+        a {
+            text-decoration: none;
+            color: black;
+            font-size: 1.2rem;
+            span {
+                font-weight: bold;
+                color: green;
+            }
+        }
+        ul {
+            width: 50%;
+            margin: 0;
+            justify-content: space-around;
+            display: flex;
+            list-style: none;
+            li {
+                a {
+                    &:hover {
+                        color: green;
+                    }
+                }
+            }
+        }
+    }
+    .cont {
+        margin: 30px;
+        &:hover {
+            background-color: white;
+        }
+        border: solid 1px black;
+        background-color: rgb(210, 255, 210);
+        border-radius: 5px;
+        a {
+            text-decoration: none;
+            color: black;
+            p {
+            padding: 10px 10px;
+            }
+        }
+    }
+    .headline {
+        list-style-type: none;
+        font-size: 1rem;
+    }
+input {
+        font-family: Dubai;
+        font-size: 2rem;
+    }
+    form {
+        display: flex;
+        justify-content:center;
+        width: 100%;
+        .box {
+                margin: 5px;
+                color: green;
+                border-radius: 5px;
+        }
+        .search {
+            margin: 5px;
+            color: green;
+            border-radius: 5px;
+            background-color: white;
+            &:hover {
+                background-color: rgb(210, 255, 210);
+            }
+        }
+    }
+    .form {
+        margin: 50px;
+        display: flex;
+        justify-content: space-between;
+        font-size: 2rem;
+        border: solid 1px black;
+        border-radius: 10px;
+        background-color: rgb(211, 255, 211);
+        ul {
+            list-style-type: none;
+        } 
+        li {
+            padding: 20px;
+        }
+        img {
+            margin: 40px;
+        }
+    }
+}

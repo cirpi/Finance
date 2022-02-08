@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block title %}News{% endblock %}
+{% block content %}
+    <ul class="headline">
+        {% for i in news %}
+        <li><div class="cont">
+                <a href="{{ i['url'] }}"><p>{{ i['headline'] }}</p></a>
+            </div>
+        </li>
+        {% endfor %}
+</ul>
+{% endblock %}

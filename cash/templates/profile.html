@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block title %}{{pro['name']}}{% endblock %}
+{% block content %}
+    <div class="form">
+        <ul>
+            <li style="text-align:center">Company Info</li>
+            <li>Name: {{pro['name']}}</li>
+            <li>Ticker: {{pro['ticker']}}</li>
+            <li>IPO: {{pro['ipo']}}</li>
+            <li>Exchange: {{pro['exchange']}}</li>
+            <li>Phone: {{ pro['phone']}}</li>
+            <li>Website: {{pro['weburl']}}</li>
+        </ul>
+        <img src="{{pro['logo']}}" width="400px" height="400px">
+    </div>
+{% endblock %}

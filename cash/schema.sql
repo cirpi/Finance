@@ -1,0 +1,1 @@
+CREATE TABLE news (id INTEGER, headline TEXT NOT NULL, link TEXT NOT NULL);
