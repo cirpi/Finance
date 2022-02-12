@@ -1,4 +1,4 @@
-__token = 'c7rvlqqad3id6qkmmmdg'
+__token = 'YOUR TOKEN HERE'
 
 __base_url = 'https://finnhub.io/api/v1/'
 def __get_token():
